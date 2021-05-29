@@ -1,4 +1,5 @@
 baseURL = "https://skonik.github.io/python-software-patterns/"
+canonifyURLs: false
 languageCode = "en-us"
 title = "Python Software Patterns"
 theme = "color-your-world"
