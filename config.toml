@@ -5,10 +5,3 @@ title = "Python Software Patterns"
 theme = "color-your-world"
 [params]
     custom_css = ["css/font.css"]
-
-[params.style]
-
-  # Dark mode as default
-  # User preferences (site/system settings) will still have priority over it
-  # The default is false
-  isDark = true
