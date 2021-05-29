@@ -23,6 +23,7 @@ jobs:
 
       - name: Build
         run: |
+          git clone https://gitlab.com/rmaguiar/hugo-theme-color-your-world.git themes/color-your-world
           hugo --minify
 
       - name: Deploy
