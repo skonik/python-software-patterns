@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://skonik.github.io/python-software-patterns/"
 languageCode = "en-us"
 title = "Python Software Patterns"
 theme = "color-your-world"
