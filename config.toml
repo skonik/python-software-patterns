@@ -2,3 +2,5 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Python Software Patterns"
 theme = "color-your-world"
+[params]
+    custom_css = ["css/font.css"]
