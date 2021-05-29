@@ -22,11 +22,13 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo --minify
+        run: |
+          git clone https://gitlab.com/rmaguiar/hugo-theme-color-your-world.git themes/color-your-world
+          hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
