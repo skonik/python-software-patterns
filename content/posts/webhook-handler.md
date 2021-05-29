@@ -1,14 +1,14 @@
 ---
 title: "Webhook handlers via decorators"
 date: 2021-05-27T00:03:38+03:00
-draft: true
+draft: false
 ---
 
 ### Problem
 You have an external system(e.g payment gateway) sending events onto your backend http endpoint.
 There are several types of events have to be processed in different ways.
 
-![test](images/webhook_handlers/external_system.png)
+![test](/static/webhook-handler/images/webhook_handlers/external_system.png)
 
 How to organize the code?
 
